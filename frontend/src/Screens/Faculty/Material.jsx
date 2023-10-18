@@ -38,7 +38,7 @@ const Material = () => {
       });
   }, []);
 
-  useEffect(() => {
+  {/*useEffect(() => {
     const uploadFileToStorage = async (file) => {
       toast.loading("Upload Material To Storage");
       const storageRef = ref(
@@ -65,7 +65,7 @@ const Material = () => {
       );
     };
     file && uploadFileToStorage(file);
-  }, [file]);
+  }, [file]);*/}
 
   const addMaterialHandler = () => {
     toast.loading("Adding Material");
